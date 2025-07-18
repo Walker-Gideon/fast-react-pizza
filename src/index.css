@@ -45,3 +45,7 @@
     }
   }
 }
+
+@theme {
+  --font-display: "Roboto Mono", monospace;
+}
