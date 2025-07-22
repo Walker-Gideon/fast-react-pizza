@@ -89,7 +89,7 @@ function CreateOrder() {
 
           {/* Doing the above we push the data inputed from the form to our fakeCart object */}
 
-          <Button disabled={isSubmitting}>
+          <Button disabled={isSubmitting} type="primary">
             {isSubmitting ? "Placing order..." : "Order now"}
           </Button>
         </div>
